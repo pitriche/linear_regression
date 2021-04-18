@@ -119,6 +119,7 @@ int		main(void)
 	std::getline(ifs, str);
 	str.clear();
 	std::getline(ifs, str);
+	a_damping = 0.0f;
 	while (!str.empty())
 	{
 		tmp = str.substr(0, str.find(','));
