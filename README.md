@@ -1,5 +1,6 @@
 # linear_regression
 42 school project, introduction to linear regression. Implemented in C++
+possible upgrade: normalize data to avoid using a_damping
 
 To train:
 1- run 'make'
