@@ -20,7 +20,7 @@
 #define LEARNING_RATE	1e-2f
 #define SEC_A_DAMPING	1e-3f
 
-// floats to avoid constant cast for calculus
+// floats to avoid cast for calculus
 struct Tup
 {
 	Tup(int km_, int price_) : km(static_cast<float>(km_)),
